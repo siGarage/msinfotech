@@ -633,6 +633,9 @@ ul.dropdown-menu li {
 .about-content h4 {
   font-weight: 600;
 }
+.blue {
+  color: #0028fe !important;
+}
 
 .about-content h4 {
   position: absolute;
