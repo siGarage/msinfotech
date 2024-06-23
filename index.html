@@ -18,6 +18,10 @@
 
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <!-- Icon Font Css -->
     <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />
     <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
@@ -34,6 +38,21 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .carousel-item .card {
+        display: flex;
+        justify-content: center;
+        border: none;
+      }
+      .carousel-item.active {
+        display: flex;
+      }
+      .carousel-item-next,
+      .carousel-item-prev,
+      .carousel-item.active {
+        display: flex;
+      }
+    </style>
   </head>
 
   <body>
@@ -174,7 +193,7 @@
                 <i class="ti-desktop color-one"></i>
                 <h4 class="mt-4 mb-3">Experience and Experties</h4>
                 <p>
-                  We have been in the market since 2004, and our team comprises
+                  We have been in the market since 2005, and our team comprises
                   highly qualified IT experts.
                 </p>
               </div>
@@ -185,8 +204,8 @@
                 <h4 class="mt-4 mb-3">Our Compliance and Credibility</h4>
                 <p>
                   We are proudly registered and compliant with the government
-                  bodies and industry standards i.e. GST, Udyam Registration,
-                  etc.
+                  bodies and industry standards i.e. GST, Udyam Registration,EPF
+                  & ESI etc.
                 </p>
               </div>
             </div>
@@ -207,6 +226,134 @@
       </section>
 
       <!-- Section Intro END -->
+
+      <!-- <section class="section testimonial"> -->
+      <section class="section counter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 text-center">
+              <div class="section-title">
+                <span class="h6 text-color"><h3>Our Major Clients</h3></span>
+              </div>
+            </div>
+          </div>
+          <div
+            id="multiCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="2000"
+          >
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="row w-100">
+                  <div class="col-md-2">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/HPBOSE.jpg"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-none d-md-block">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/dav.gif"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-none d-md-block">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/sbi.png"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-none d-md-block">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/tour.jpg"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-none d-md-block">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/army.jpg"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-none d-md-block">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/cpri.jpg"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row w-100">
+                  <div class="col-md-2">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/ITbp.jpg"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-none d-md-block">
+                    <div class="card mb-2">
+                      <img
+                        class="card-img-top"
+                        src="./images/logos/my.jpg"
+                        alt="Card image cap"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add more carousel items as needed -->
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#multiCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#multiCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- </section> -->
       <!-- Section About Start -->
 
       <section class="section about position-relative" id="section1">
@@ -252,7 +399,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="counter-item text-center mb-5 mb-lg-0">
                 <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">20,000</span> +
+                  <span class="counter-stat font-weight-bold">30,000</span> +
                 </h3>
                 <p class="text-muted">Happy Customers</p>
               </div>
@@ -277,6 +424,7 @@
         </div>
       </section>
       <!-- section Counter End  -->
+
       <!--  Section Services Start -->
       <section class="section service border-top" id="section2">
         <div class="container">
@@ -436,6 +584,42 @@
                   Efficient management of your IT hardware assets, including
                   tracking, inventory management, and lifecycle management to
                   optimize asset utilization
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-item mb-5">
+                <img
+                  src="./images/about/8676947.png"
+                  width="50"
+                  height="50"
+                  class="icon"
+                />
+                <h4 class="mb-3">Power Solutions</h4>
+
+                <p>
+                  We offer a comprehensive range of power solutions including
+                  online and offline UPS systems, inverters, and backup power
+                  solutions to ensure uninterrupted power supply for your
+                  critical IT infrastructure.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-item mb-5">
+                <img
+                  src="./images/about/7527847.png"
+                  width="50"
+                  height="50"
+                  class="icon"
+                />
+                <h4 class="mb-3">Networking Solutions</h4>
+
+                <p>
+                  Our networking solutions include high-performance networking
+                  switches, firewalls, and related equipment designed to provide
+                  robust and secure network solutions for your business
+                  operations.
                 </p>
               </div>
             </div>
@@ -686,6 +870,17 @@
         }
       });
     </script>
+    <script>
+      $(document).ready(function () {
+        $("#multiCarousel").carousel({
+          interval: 2000, // Interval between slides in milliseconds
+          wrap: true, // Loop the carousel indefinitely
+        });
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- Main jQuery -->
     <script src="plugins/jquery/jquery.js"></script>
